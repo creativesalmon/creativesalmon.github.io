@@ -46,6 +46,7 @@ header {
 nav {
   background : #006e51;
   width : 100%;
+  display : inline;
 }
 
 #nav_menu {
