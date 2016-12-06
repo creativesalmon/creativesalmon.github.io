@@ -54,6 +54,7 @@ nav {
   width : 100%;
   color : #ffffff;
   float : left;
+  display : inline;
 }
 
 section {
