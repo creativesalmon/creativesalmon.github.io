@@ -43,15 +43,13 @@ header {
   text-decoration : none;
 }
 
-
 nav {
   background : #006e51;
   float : left;
   width : 100%;
-}
-nav ul {
   display : inline;
 }
+
 #nav_menu {
   width : 100%;
   color : #ffffff;
