@@ -53,6 +53,10 @@ nav div {
   width : 33%;
 }
 
+nav h3 {
+  color : #ffffff;
+}
+
 #nav_menu {
   color : #ffffff;
   float : left;
