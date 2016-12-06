@@ -1,3 +1,27 @@
+/* viewport_base.css 파일입니다.  전체적인 화면 레이아웃 구성을 도와줄거임*/
+
+/*
+ 기본규칙!!
+    태그 선택자 -> 그냥 쓴다 div
+    아이디 선택자 -> # + 아이디
+    클래스 선택자 -> . + 클래스명
+*/
 h1 {
   background : #ffd800;
+}
+
+header {
+  width : 100%;
+  height : 5em;
+  padding-top : 3em;
+}
+
+nav {
+  float : left;
+}
+
+#title {
+  font-size : 2em;
+  font-weight : bold;
+  text-decoration : none;
 }
