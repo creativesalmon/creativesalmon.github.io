@@ -6,22 +6,31 @@
     아이디 선택자 -> # + 아이디
     클래스 선택자 -> . + 클래스명
 */
-h1 {
-  background : #ffd800;
-}
 
 header {
+  background : #006e51;
   width : 100%;
   height : 5em;
   padding-top : 3em;
+  float : right;
 }
 
 nav {
+  background
   float : left;
+}
+
+section {
+
+}
+
+footer {
+
 }
 
 #title {
   font-size : 2em;
+  font-color : #ffffff;
   font-weight : bold;
   text-decoration : none;
 }
