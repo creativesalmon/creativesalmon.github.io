@@ -30,7 +30,8 @@ footer {
 
 #title {
   font-size : 2em;
-  font-color : #ffffff;
+  color : #ffffff;
+  text-align : right;
   font-weight : bold;
   text-decoration : none;
 }
