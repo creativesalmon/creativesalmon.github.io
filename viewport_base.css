@@ -48,10 +48,9 @@ nav {
   background : #006e51;
   float : left;
   width : 100%;
-  display : inline;
 }
-nav li {
-  
+nav ul {
+  display : inline;
 }
 #nav_menu {
   width : 100%;
