@@ -43,7 +43,8 @@ nav {
 }
 
 
-nav li{
+nav ul{
+  width : 100%;
   color : #ffffff;
   float : left;
 }
