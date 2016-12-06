@@ -47,18 +47,11 @@ nav {
   background-color : #006e51;
   width : 100%;
   display : inline;
-}
-
-nav li {
-
+  float : left;
 }
 
 nav~div {
   width : 33%;
-}
-nav ul{
-  float : left;
-  display : inline;
 }
 
 nav h3 {
@@ -72,7 +65,9 @@ nav h3 {
 }
 
 section {
-
+  background : #dbdbdb;
+  width : 100%;
+  height : 100px;
 }
 
 footer {
