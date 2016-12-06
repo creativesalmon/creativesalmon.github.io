@@ -54,15 +54,18 @@ nav li {
 }
 
 nav~div {
-  background : #006e51;
   width : 33%;
+}
+nav ul{
+  float : left;
+  display : inline;
 }
 
 nav h3 {
   color : #ffffff;
 }
 
-#nav_menu {
+.nav_menu {
   color : #000000;
   float : left;
   display : inline;
