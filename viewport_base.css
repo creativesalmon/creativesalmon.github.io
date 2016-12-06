@@ -56,11 +56,13 @@ nav div {
 nav h3 {
   color : #ffffff;
 }
-
+.nav_menu {
+  background : #006e51;
+}
 #nav_menu {
   color : #ffffff;
   float : left;
-  display : inline-block;
+  display : inline;
 }
 
 section {
