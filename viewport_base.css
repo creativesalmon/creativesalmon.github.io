@@ -38,11 +38,10 @@ header {
 nav {
   background : #006e51;
   float : left;
+  width : 100%;
   display : inline;
 }
-#nav_menu {
-  display : inline;
-}
+
 
 nav li{
   color : #ffffff;
