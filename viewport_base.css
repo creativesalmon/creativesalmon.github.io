@@ -45,16 +45,14 @@ header {
 
 nav {
   background : #006e51;
-  float : left;
   width : 100%;
-  display : inline;
 }
 
 #nav_menu {
   width : 100%;
   color : #ffffff;
   float : left;
-  display : inline;
+  display : inline-block;
 }
 
 section {
