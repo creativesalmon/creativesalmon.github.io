@@ -35,15 +35,25 @@ header {
   float : right;
 }
 
+#title {
+  font-size : 2em;
+  color : #ffffff;
+  text-align : right;
+  font-weight : bold;
+  text-decoration : none;
+}
+
+
 nav {
   background : #006e51;
   float : left;
   width : 100%;
   display : inline;
 }
-
-
-nav ul{
+nav li {
+  
+}
+#nav_menu {
   width : 100%;
   color : #ffffff;
   float : left;
@@ -55,12 +65,4 @@ section {
 
 footer {
 
-}
-
-#title {
-  font-size : 2em;
-  color : #ffffff;
-  text-align : right;
-  font-weight : bold;
-  text-decoration : none;
 }
