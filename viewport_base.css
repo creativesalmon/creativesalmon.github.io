@@ -44,6 +44,7 @@ header {
 }
 
 nav {
+  margin-top : 10px;
   background-color : #006e51;
   width : 100%;
   display : inline;
@@ -52,6 +53,7 @@ nav {
 
 nav~div {
   width : 33%;
+  display : inline;
 }
 
 nav h3 {
@@ -59,9 +61,7 @@ nav h3 {
 }
 
 .nav_menu {
-  color : #000000;
-  float : left;
-  display : inline;
+  color : #ffffff;
 }
 
 section {
@@ -73,5 +73,5 @@ section {
 footer {
   background : #006e51;
   width : 100%;
-  height : 10%;
+  height : 100px;
 }
