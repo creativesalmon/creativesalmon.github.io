@@ -23,6 +23,11 @@ header {
 nav {
   background : #006e51;
   float : left;
+  display : inline;
+}
+
+nav li{
+  float : left;
 }
 
 section {
