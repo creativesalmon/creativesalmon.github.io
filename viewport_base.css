@@ -6,7 +6,12 @@
     아이디 선택자 -> # + 아이디
     클래스 선택자 -> . + 클래스명
 */
-
+body {
+  padding-top : 0px;
+  padding-right : 0px;
+  padding-bottom : 0px;
+  padding-left : 0px;
+}
 header {
   background : #006e51;
   width : 100%;
@@ -16,7 +21,7 @@ header {
 }
 
 nav {
-  background
+  background : #006e51;
   float : left;
 }
 
