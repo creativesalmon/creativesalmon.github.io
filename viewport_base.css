@@ -49,8 +49,11 @@ nav {
   display : inline;
 }
 
+nav div {
+  width : 33%;
+}
+
 #nav_menu {
-  width : 100%;
   color : #ffffff;
   float : left;
   display : inline-block;
