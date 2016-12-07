@@ -33,12 +33,12 @@ header {
 }
 
 #title {
-  border-radius : 20px;
+  border-radius : 10px;
   box-sizing : border-box;
   border-width : 5px;
   border-style : solid;
   border-color : #ffffff;
-  
+
   font-size : 2em;
   color : #ffffff;
   text-align : right;
