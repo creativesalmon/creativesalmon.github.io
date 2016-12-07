@@ -33,6 +33,11 @@ header {
   height : 5em;
   padding-top : 3em;
   float : right;
+  border-radius : 20px;
+  box-sizing : border-box;
+  border-width : 5px;
+  border-style : solid;
+  border-color : #ffffff;
 }
 
 #title {
@@ -53,9 +58,11 @@ nav {
 
 nav div {
   width : 33%;
+  float: left;
   display : inline;
 }
 nav div ul li{
+  float : right;
   display : inline;
 }
 nav h3 {
