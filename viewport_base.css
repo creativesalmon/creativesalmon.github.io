@@ -51,7 +51,7 @@ nav {
   float : left;
 }
 
-nav~div {
+nav div {
   width : 33%;
   display : inline;
 }
