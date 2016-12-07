@@ -55,7 +55,9 @@ nav~div {
   width : 33%;
   display : inline;
 }
-
+nav div ul li{
+  display : inline;
+}
 nav h3 {
   color : #ffffff;
 }
