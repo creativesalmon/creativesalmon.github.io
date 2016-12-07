@@ -22,10 +22,8 @@
 */
 
 body {
-  padding-top : 0px;
-  padding-right : 0px;
-  padding-bottom : 0px;
-  padding-left : 0px;
+  margin : 0;
+  padding : 0;
 }
 header {
   background-color : #006e51;
@@ -61,10 +59,12 @@ nav div {
   float: left;
   display : inline;
 }
+
 nav div ul li{
   float : right;
   display : inline;
 }
+
 nav h3 {
   color : #ffffff;
 }
@@ -82,5 +82,26 @@ section {
 footer {
   background : #006e51;
   width : 100%;
-  height : 100px;
+  height : 310px;
+  float : left;
+  display : inline;
+  overflow : hidden;
+}
+
+footer div {
+  float : left;
+  color : #eaeaea;
+  overflow : hidden;
+}
+
+footer div :first-child {
+  width : 30%;
+}
+
+footer div :nth-child(2){
+  width : 40%;
+}
+
+footer div :nth-child(3){
+  width : 30%;
 }
