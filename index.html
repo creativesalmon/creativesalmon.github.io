@@ -1,40 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no">
+    <meta charset="utf-8" name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no">
 
-  <title>크리에이티브살몬</title>
-  <link href="viewport_base.css" type="text/css" rel="stylesheet">
+    <title>크리에이티브살몬</title>
+    <link href="viewport_base.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-  <header>
+<header>
     <h1 id="title">크리에이티브 살몬</h1>
-  </header>
+</header>
 
-  <nav>
+<nav id="menu_bar" class="menu_bar">
     <div>
-      <h3>안녕하세요 샐몬입니다</h3>
+        <ul>
+            <li><a href="#section1">WHO?</a></li>
+            <li><a href="#section2">PROJECT</a></li>
+            <li><a href="#section3">CONTACT US</a></li>
+            <li style="float: right"><a class="active" href="#about">ABOUT</a></li>
+        </ul>
     </div>
-    <div>
-      <ul>
-        <li class="nav_menu">메뉴1</li>
-        <li class="nav_menu">메뉴2</li>
-        <li class="nav_menu">메뉴3</li>
-      </ul>
-    </div>
-  </nav>
+</nav>
 
-  <section>
-    <div class="content">
-      <p>this is section</p>
-    </div>
-  </section>
+<div class="content">
+    <section id="section1">
+        <div class="content_child">
+            <p>this is who</p>
+        </div>
+    </section>
 
-  <footer>
+    <section id="section2">
+        <div class="content_child">
+            <p>show our projects</p>
+        </div>
+    </section>
+
+    <section id="section3">
+        <div class="content_child">
+            <p>how to contact us</p>
+        </div>
+    </section>
+</div>
+
+
+<footer>
     <div class="office_logo">office_logo</div>
-    <div class="office_address">office_address</div>
-    <div class="copyright">copyright</div>
-  </footer>
-
+    <div class="office_addressy">서울특별시 중구 필동</div>
+    <div class="copyright">copright</div>
+</footer>
 </body>
 </html>
