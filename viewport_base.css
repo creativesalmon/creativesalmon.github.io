@@ -116,7 +116,7 @@ section {
     display: block;
 }
 
-.content_child p {
+.section_p{
     top: 200px;
     left: 30%;
     position: relative;
