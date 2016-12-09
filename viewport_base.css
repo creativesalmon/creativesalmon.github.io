@@ -22,124 +22,132 @@
 */
 
 body {
-  margin : 0;
-  padding : 0;
-  background: #ffffff;
-  display: block;
+    margin: 0;
+    padding: 0;
+    background: #131313;
+    display: block;
 }
 
 header {
-  position: fixed; top: 0; left:0;
-  margin:0;
-  padding:0;
-  width : 100%;
-  height : 70px;
-  float : left;
-  background: #333333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 70px;
+    float: left;
+    background: #333333;
 }
 
 #title {
-  height:inherit;
-  border-radius : 10px;
-  box-sizing : border-box;
-  font-size : 2em;
-  color : #ffffff;
-  text-align : left;
-  font-weight : bold;
-  text-decoration : none;
+    height: inherit;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 2em;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 #menu_bar {
-  list-style-type: none;
-  position: fixed;
-  top: 70px;
-  left:0;
-  /*background-color : #b93a32;*/
-  width : 100%;
-  height: 40px;
+    list-style-type: none;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    /*background-color : #b93a32;*/
+    width: 100%;
+    height: 40px;
 }
 
 #menu_bar div {
-  display: inline;
+    display: inline;
 }
 
 #menu_bar div ul {
-  list-style-type: none;
-  margin:0;
-  padding:0;
-  overflow: hidden;
-  background: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #333;
 }
 
-#menu_bar div ul li{
-  padding:5px;
-  margin: 3px;
-  float : left;
-  color : #ffffff;
-  border-radius: 5px;
-  border-width: 2px;
-  border-color: #ffffff;
+#menu_bar div ul li {
+    padding: 5px;
+    margin: 3px;
+    float: left;
+    color: #ffffff;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #ffffff;
 }
 
-#menu_bar div ul li:hover{
-  background-color: #111111;
+#menu_bar div ul li:hover {
+    background-color: #111111;
 }
 
 #menu_bar div ul li a {
-  color: #ffffff;
-  display: block;
-  text-decoration: none;
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
 }
+
 #menu_bar div ul li a:hover {
-  color: #dbdbdb;
-  text-decoration: underline;
+    color: #dbdbdb;
+    text-decoration: underline;
 }
 
 section {
-  background : #ffffff;
-  width : 100%;
-  height : 100%;
+    padding-top: 150px;
+    background: #131313;
+    width: 100%;
 }
 
 .content {
-  top : 110px;
-  left: 0;
-  overflow: auto;
-  width:100%;
+    overflow: auto;
+    width: 100%;
 }
 
-.content_child{
-  height: 500px;
-  background: #ad5d5d;
-  border-color: #006e51;
-  border-width: 4px;
-  border-style: double;
+.content_child {
+    height: 700px;
+    width: 100%;
+    background: #131313;
+    display: block;
+}
+
+.content_child p {
+    top: 200px;
+    left: 30%;
+    position: relative;
+    color: #ffffff;
+    font-size: 2em;
 }
 
 footer {
-  position: static;
-  background-color : #333333;
-  width : 100%;
-  height : 120px;
-  float : left;
-  display : inline;
-  overflow : hidden;
+    position: static;
+    background-color: #333333;
+    width: 100%;
+    height: 120px;
+    float: left;
+    display: inline;
+    overflow: hidden;
 }
 
 footer div {
-  float : left;
-  color : #eaeaea;
-  overflow : hidden;
+    float: left;
+    color: #eaeaea;
+    overflow: hidden;
 }
 
 footer div :first-child {
-  width : 30%;
+    width: 30%;
 }
 
-footer div :nth-child(2){
-  width : 40%;
+footer div :nth-child(2) {
+    width: 40%;
 }
 
-footer div :nth-child(3){
-  width : 30%;
+footer div :nth-child(3) {
+    width: 30%;
 }
